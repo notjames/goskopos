@@ -444,3 +444,16 @@ skopos()
 }
 `
 )
+
+
+cmd := &cobra.Command{
+	Use:     "setup",
+	Short:   "Initialize skopos shell functions.",
+	Long:    get_long,
+	Example: get_example,
+	Run: func(cmd *cobra.Command, args []string) {
+		err := RunGet(f, out, cmd, args)
+		util.CheckErr(err)
+	},
+	ValidArgs: validArgs,
+}
