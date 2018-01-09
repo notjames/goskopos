@@ -28,7 +28,6 @@ var RootCmd = &cobra.Command{
 	Use:           runtimeCommandName,
 	SilenceErrors: true,
 	Short:         "Manage multiple Kraken clusters with one command.",
-	Run:           runHelp,
 	BashCompletionFunction: bash_completion_func,
 }
 
