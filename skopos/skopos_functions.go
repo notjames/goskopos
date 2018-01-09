@@ -445,7 +445,7 @@ skopos()
 `
 )
 
-
+/*
 cmd := &cobra.Command{
 	Use:     "setup",
 	Short:   "Initialize skopos shell functions.",
@@ -457,3 +457,4 @@ cmd := &cobra.Command{
 	},
 	ValidArgs: validArgs,
 }
+*/
